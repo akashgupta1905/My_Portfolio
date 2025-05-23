@@ -35,13 +35,13 @@ const About = () => {
             </li>
             <li className="w-full shadow-sm">
               <div className="w-full text-center py-[30px] md:py-[60px] rounded-md bg-light-bg">
-                <h3 className="text-[40px] mb-[3px font-bold text-dark-red">5+</h3>
+                <h3 className="text-[40px] mb-[3px font-bold text-dark-red">10+</h3>
                 <span className="uppercase">Projects Completed</span>
               </div>
             </li>
             <li className="w-full shadow-sm">
               <div className="w-full text-center py-[30px] md:py-[60px] rounded-md bg-light-bg">
-                <h3 className="text-[40px] mb-[3px font-bold text-dark-red">2+</h3>
+                <h3 className="text-[40px] mb-[3px font-bold text-dark-red">1+</h3>
                 <span className="uppercase">Years of Experience</span>
               </div>
             </li>
