@@ -1,7 +1,7 @@
 "use client";
 
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import {SiLeetcode,SiCodingninjas,SiGeeksforgeeks,SiCodechef,SiHackerrank} from "react-icons/si"
+import { SiLeetcode, SiCodingninjas, SiGeeksforgeeks, SiCodechef, SiHackerrank } from "react-icons/si"
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
@@ -14,7 +14,7 @@ const Contact = () => {
 
     emailjs
 
-    .sendForm("service_9c3uor9", "template_rcye56t", form.current, "iRgw0aD9-KbM48QJr")
+      .sendForm("service_9c3uor9", "template_rcye56t", form.current, "iRgw0aD9-KbM48QJr")
       .then((result) => {
         form.current.reset();
       })
@@ -38,13 +38,12 @@ const Contact = () => {
               </p>
             </div>
             <p className="text-dark-blue">
-              I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you
-              want to run past me. I'm also avaliable.
+              I’m currently available to take on new projects, so feel free to message me if there's anything you'd like to discuss or run past me. I'm open and ready to collaborate.
             </p>
             <p className="text-dark-blue mt-12">Email me at</p>
             <h4>
               <a href="#" className="text-lg font-semibold text-dark-blue">
-              akashguptavns004@gmail.com
+                akashguptavns004@gmail.com
               </a>
             </h4>
             <div className="mt-12">
@@ -57,10 +56,10 @@ const Contact = () => {
                   <a href="https://www.linkedin.com/in/akash-gupta-87a86521b/" target="_blank" className="text-3xl text-dark-blue">
                     <AiFillLinkedin />
                   </a>
-                  <a href="https://auth.geeksforgeeks.org/user/akku_official_1"  target="_blank" className="text-3xl text-dark-blue">
+                  <a href="https://auth.geeksforgeeks.org/user/akku_official_1" target="_blank" className="text-3xl text-dark-blue">
                     <SiGeeksforgeeks />
                   </a>
-                  <a href="https://profile.codingninjas.com/8fcdf7c7-7724-46fc-af79-3fd2c9dcd7fe?_ga=2.162369276.1720845497.1684915031-1683286112.1658645593"  target="_blank" className="text-3xl text-dark-blue">
+                  <a href="https://profile.codingninjas.com/8fcdf7c7-7724-46fc-af79-3fd2c9dcd7fe?_ga=2.162369276.1720845497.1684915031-1683286112.1658645593" target="_blank" className="text-3xl text-dark-blue">
                     <SiCodingninjas />
                   </a>
                   <a href="https://leetcode.com/akku_official_1/" target="_blank" className="text-3xl text-dark-blue">
