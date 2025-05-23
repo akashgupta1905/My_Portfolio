@@ -15,7 +15,7 @@ const About = () => {
 
         <div className="mt-7">
           <p className="mt-6 text-gray-600 text-[20px] leadiing-10">
-            Welcome to my portfolio website!<br /><br />
+            Welcome to my portfolio website!<br />
             I'm Akash Gupta, a dedicated and ambitious Computer Science & Engineering student at Feroze Gandhi Institute of Engineering and Technology, Raebareli. With a strong foundation in Information Technology, I’m passionate about using technology to solve real-world problems and contribute meaningfully to innovative projects.<br />
 
             As an aspiring developer, I’m constantly learning and staying updated with the latest tools, trends, and technologies in the tech industry. My journey so far has helped me build a solid skill set in web development, critical thinking, and problem-solving.
